@@ -1,0 +1,33 @@
+*Operations 2.0
+*date Sun Apr  7 19:11:06 2013  # latest file modification 
+# operations of buffer defined in: 
+# ../zones/buffer.opr
+no operations notes (yet)
+# control(infil only: zone temp   ), low mid & high setpoints 
+ -11    20.000    24.000    27.000
+# lower: infil, vent, source, data
+     1.000     0.000    0     0.000
+# middle: infil, vent, source, data
+     2.500     0.000    0     0.000
+# high: infil, vent, source, data
+     2.500     0.000    0     0.000
+     0   # number of flow periods in day type: weekdays    
+     0   # number of flow periods in day type: saturday    
+     0   # number of flow periods in day type: sunday      
+     3   # number of casual gains in day type: weekdays    
+# type, start, stop, sens, latent, rad_frac, conv_frac
+    1,   0,  24,      0.0,      0.0, 0.500, 0.500
+    2,   0,  24,      0.0,      0.0, 0.500, 0.500
+    3,   0,  24,      0.0,      0.0, 0.400, 0.600
+     3   # number of casual gains in day type: saturday    
+# type, start, stop, sens, latent, rad_frac, conv_frac
+    1,   0,  24,      0.0,      0.0, 0.500, 0.500
+    2,   0,  24,      0.0,      0.0, 0.500, 0.500
+    3,   0,  24,      0.0,      0.0, 0.400, 0.600
+     3   # number of casual gains in day type: sunday      
+# type, start, stop, sens, latent, rad_frac, conv_frac
+    1,   0,  24,      0.0,      0.0, 0.500, 0.500
+    2,   0,  24,      0.0,      0.0, 0.500, 0.500
+    3,   0,  24,      0.0,      0.0, 0.400, 0.600
+# Labels for gain types 
+ Occupt Lights Equipt
