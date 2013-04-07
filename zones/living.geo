@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Apr  7 17:16:20 2013  # latest file modification 
+*date Sun Apr  7 17:32:31 2013  # latest file modification 
 ground floor with kitchen, toilet and livingrm
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,0.00000  #   1
@@ -10,14 +10,17 @@ ground floor with kitchen, toilet and livingrm
 *vertex,8.00000,3.00000,2.50000  #   6
 *vertex,8.00000,9.70000,2.50000  #   7
 *vertex,0.00000,9.70000,2.50000  #   8
+*vertex,0.00000,5.30000,2.50000  #   9
+*vertex,8.00000,5.30000,2.50000  #  10
 # 
 # tag, number of vertices followed by list of associated vert
 *edges,4,1,2,6,5  #  1
-*edges,4,2,3,7,6  #  2
+*edges,5,2,3,7,10,6  #  2
 *edges,4,3,4,8,7  #  3
-*edges,4,4,1,5,8  #  4
-*edges,4,5,6,7,8  #  5
+*edges,5,4,1,5,9,8  #  4
+*edges,4,10,7,8,9  #  5
 *edges,4,1,4,3,2  #  6
+*edges,4,9,5,6,10  #  7
 # 
 # surf attributes:
 #  surf name, surf position VERT/CEIL/FLOR/SLOP/UNKN
@@ -30,6 +33,7 @@ ground floor with kitchen, toilet and livingrm
 *surf,W-living,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
 *surf,living-bdrms,CEIL,-,-,-,susp_ceil,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
 *surf,living-floor,FLOR,-,-,-,grnd_floor,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
+*surf,air_boundary,CEIL,-,-,-,fictitious,SC_fictit,UNKNOWN,0,0  #   7 ||< external
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
