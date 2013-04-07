@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Apr  7 17:32:31 2013  # latest file modification 
+*date Sun Apr  7 17:36:12 2013  # latest file modification 
 ground floor with kitchen, toilet and livingrm
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,0.00000  #   1
@@ -27,13 +27,13 @@ ground floor with kitchen, toilet and livingrm
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,S-living,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,E-living,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,N-Living,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,W-living,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,living-bdrms,CEIL,-,-,-,susp_ceil,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,living-floor,FLOR,-,-,-,grnd_floor,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,air_boundary,CEIL,-,-,-,fictitious,SC_fictit,UNKNOWN,0,0  #   7 ||< external
+*surf,S-living,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,00,00  #   1 ||< external
+*surf,E-living,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,00,00  #   2 ||< external
+*surf,N-Living,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,00,00  #   3 ||< external
+*surf,W-living,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,00,00  #   4 ||< external
+*surf,living-bdrms,CEIL,-,-,-,susp_ceil,OPAQUE,ANOTHER,02,05  #   5 ||< bdrooms-livi:bdrooms
+*surf,living-floor,FLOR,-,-,-,grnd_floor,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
+*surf,air_boundary,CEIL,-,-,-,fictitious,SC_fictit,ANOTHER,02,06  #   7 ||< air_boundary:bdrooms
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

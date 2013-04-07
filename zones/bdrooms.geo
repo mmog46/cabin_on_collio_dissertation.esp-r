@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrooms # tag version, format, zone name
-*date Sun Apr  7 17:30:28 2013  # latest file modification 
+*date Sun Apr  7 17:36:21 2013  # latest file modification 
 the bedrooms and toilet on the first floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,2.50000  #   1
@@ -24,12 +24,12 @@ the bedrooms and toilet on the first floor
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,E-bdrooms,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,N-bdrooms,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,W-bdrooms,VERT,-,-,-,extern_wall,OPAQUE,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,bdrooms-roof,SLOP,-,-,-,roof,OPAQUE,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,bdrooms-livi,FLOR,-,-,-,susp_floor,OPAQUE,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,air_boundary,FLOR,-,-,-,fictitious,SC_fictit,UNKNOWN,0,0  #   6 ||< external
+*surf,E-bdrooms,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,00,00  #   1 ||< external
+*surf,N-bdrooms,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,00,00  #   2 ||< external
+*surf,W-bdrooms,VERT,-,-,-,extern_wall,OPAQUE,EXTERIOR,00,00  #   3 ||< external
+*surf,bdrooms-roof,SLOP,-,-,-,roof,OPAQUE,EXTERIOR,00,00  #   4 ||< external
+*surf,bdrooms-livi,FLOR,-,-,-,susp_floor,OPAQUE,ANOTHER,01,05  #   5 ||< living-bdrms:living
+*surf,air_boundary,FLOR,-,-,-,fictitious,SC_fictit,ANOTHER,01,07  #   6 ||< air_boundary:living
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
