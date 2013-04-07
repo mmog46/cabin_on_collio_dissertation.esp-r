@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Apr  7 19:14:10 2013  # latest file modification 
+*date Sun Apr  7 19:34:44 2013  # latest file modification 
 ground floor with kitchen, toilet and livingrm
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,0.00000  #   1
@@ -39,7 +39,7 @@ ground floor with kitchen, toilet and livingrm
 *surf,living-bdrms,CEIL,-,-,-,susp_ceil,OPAQUE,ANOTHER,02,05  #   5 ||< bdrooms-livi:bdrooms
 *surf,living-floor,FLOR,-,-,-,PH-grnd_floo,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
 *surf,air_boundary,CEIL,-,-,-,fictitious,SC_fictit,ANOTHER,02,06  #   7 ||< air_boundary:bdrooms
-*surf,S-glz,VERT,S-living,C-WINDOW,CLOSED,dbl_glz,DCF7671_06nb,ANOTHER,03,07  #   8 ||< S-glz:buffer
+*surf,S-glz,VERT,S-living,C-WINDOW,CLOSED,tripglz_089,tr_Kgl_arg,ANOTHER,03,07  #   8 ||< S-glz:buffer
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 

@@ -1,7 +1,7 @@
 # transparent properties of buffer defined in ../zones/buffer.tmc
    8   # surfaces
 # tmc index for each surface
-1,1,1,1,1,0,1,0
+1,1,1,1,1,0,2,0
    3  DCF7671_06nb # layers in tmc type 1
 # Transmission @ 5 angles & visible tr.
    0.611   0.583   0.534   0.384   0.170   0.760
@@ -9,4 +9,14 @@
    0.157   0.172   0.185   0.201   0.202
    0.001   0.002   0.003   0.004   0.005
    0.117   0.124   0.127   0.112   0.077
+   0  # optical control flag
+   5  tr_Kgl_arg   # layers in tmc type 2
+# Transmission @ 5 angles & visible tr.
+   0.382   0.361   0.313   0.193   0.077   0.614
+# For each layer absorption @ 5 angles
+   0.260   0.264   0.264   0.255   0.195
+   0.001   0.001   0.001   0.001   0.001
+   0.103   0.111   0.115   0.107   0.083
+   0.001   0.001   0.001   0.001   0.001
+   0.098   0.095   0.086   0.061   0.028
    0  # optical control flag
