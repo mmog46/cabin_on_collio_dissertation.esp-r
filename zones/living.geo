@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Apr  7 19:34:44 2013  # latest file modification 
+*date Sun Apr  7 19:58:19 2013  # latest file modification 
 ground floor with kitchen, toilet and livingrm
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,0.00000  #   1

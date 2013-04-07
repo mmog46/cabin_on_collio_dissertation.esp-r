@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,buffer # tag version, format, zone name
-*date Sun Apr  7 19:34:13 2013  # latest file modification 
+*date Sun Apr  7 19:57:56 2013  # latest file modification 
 buffer describes a --well-- buffer
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -44,8 +44,16 @@ buffer describes a --well-- buffer
 *insol,3,0,0,0  # default insolation distribution
 # 
 # shading directives
-*shad_calc,none  # no temporal shading requested
+*shad_calc,all_applicable   5 # list of surfs
+  1  2  3  4  5
 # 
-*insol_calc,none  # no insolation requested
+*insol_calc,all_applicable   5 # insolation sources
+  1  2  3  4  5
 # 
 *base_list,0,24.00,0  # zone base
+# 
+# block entities:
+#  *obs = obstructions
+*block_start, 20 20 # geometric blocks
+*obs,0.000,3.000,4.000,8.000,-3.000,0.100,0.000,1.00,overhang,partition  # block   1
+*end_block
