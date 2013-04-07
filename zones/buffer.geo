@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,buffer # tag version, format, zone name
-*date Sun Apr  7 18:35:53 2013  # latest file modification 
+*date Sun Apr  7 19:14:34 2013  # latest file modification 
 buffer describes a --well-- buffer
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,0.00000,0.00000  #   1
@@ -32,14 +32,14 @@ buffer describes a --well-- buffer
 #  child of (surface name), useage (pair of tags) 
 #  construction name, optical name
 #  boundary condition tag followed by two data items
-*surf,S-buffer,VERT,-,-,-,dbl_glz,DCF7671_06nb,UNKNOWN,0,0  #   1 ||< not yet defined
-*surf,E-buffer,VERT,-,-,-,dbl_glz,DCF7671_06nb,UNKNOWN,0,0  #   2 ||< not yet defined
-*surf,buffer-livin,VERT,-,-,-,dbl_glz,DCF7671_06nb,UNKNOWN,0,0  #   3 ||< not yet defined
-*surf,W-buffer,VERT,-,-,-,dbl_glz,DCF7671_06nb,UNKNOWN,0,0  #   4 ||< not yet defined
-*surf,buffer-top,SLOP,-,-,-,dbl_glz,DCF7671_06nb,UNKNOWN,0,0  #   5 ||< not yet defined
-*surf,buffer-botto,FLOR,-,-,-,PH-grnd_floo,OPAQUE,UNKNOWN,0,0  #   6 ||< not yet defined
-*surf,S-glz,VERT,S-living,C-WINDOW,CLOSED,dbl_glz,DCF7671_06nb,UNKNOWN,0,0  #   7 ||< external
-*surf,S-living,VERT,-,-,-,PH-wll-Diss,OPAQUE,UNKNOWN,0,0  #   8 ||< external
+*surf,S-buffer,VERT,-,-,-,dbl_glz,DCF7671_06nb,EXTERIOR,00,00  #   1 ||< external
+*surf,E-buffer,VERT,-,-,-,dbl_glz,DCF7671_06nb,EXTERIOR,00,00  #   2 ||< external
+*surf,buffer-livin,VERT,-,-,-,dbl_glz,DCF7671_06nb,EXTERIOR,00,00  #   3 ||< external
+*surf,W-buffer,VERT,-,-,-,dbl_glz,DCF7671_06nb,EXTERIOR,00,00  #   4 ||< external
+*surf,buffer-top,SLOP,-,-,-,dbl_glz,DCF7671_06nb,EXTERIOR,00,00  #   5 ||< external
+*surf,buffer-botto,FLOR,-,-,-,PH-grnd_floo,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
+*surf,S-glz,VERT,S-living,C-WINDOW,CLOSED,dbl_glz,DCF7671_06nb,ANOTHER,01,08  #   7 ||< S-glz:living
+*surf,S-living,VERT,-,-,-,PH-wll-Diss,OPAQUE,ANOTHER,01,01  #   8 ||< S-living:living
 # 
 *insol,3,0,0,0  # default insolation distribution
 # 
