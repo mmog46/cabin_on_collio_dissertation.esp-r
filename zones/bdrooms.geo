@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,bdrooms # tag version, format, zone name
-*date Sun Apr  7 19:14:19 2013  # latest file modification 
+*date Sun Apr  7 20:21:03 2013  # latest file modification 
 the bedrooms and toilet on the first floor
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,2.50000  #   1
@@ -25,7 +25,7 @@ the bedrooms and toilet on the first floor
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,E-bdrooms,VERT,-,-,-,PH-wll-Diss,OPAQUE,EXTERIOR,0,0  #   1 ||< external
-*surf,N-bdrooms,VERT,-,-,-,PH-wll-Diss,OPAQUE,EXTERIOR,0,0  #   2 ||< external
+*surf,N-bdrooms,VERT,-,-,-,PH-wll-Diss,OPAQUE,GROUND,01,00  #   2 ||< ground profile  1
 *surf,W-bdrooms,VERT,-,-,-,PH-wll-Diss,OPAQUE,EXTERIOR,0,0  #   3 ||< external
 *surf,bdrooms-roof,SLOP,-,-,-,PH_roof,OPAQUE,EXTERIOR,0,0  #   4 ||< external
 *surf,bdrooms-livi,FLOR,-,-,-,susp_ceil,OPAQUE,ANOTHER,01,05  #   5 ||< living-bdrms:living

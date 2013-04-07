@@ -1,5 +1,5 @@
 *Geometry 1.1,GEN,living # tag version, format, zone name
-*date Sun Apr  7 19:58:19 2013  # latest file modification 
+*date Sun Apr  7 20:20:44 2013  # latest file modification 
 ground floor with kitchen, toilet and livingrm
 # tag, X co-ord, Y co-ord, Z co-ord
 *vertex,0.00000,3.00000,0.00000  #   1
@@ -33,9 +33,9 @@ ground floor with kitchen, toilet and livingrm
 #  construction name, optical name
 #  boundary condition tag followed by two data items
 *surf,S-living,VERT,-,-,-,PH-wll-Diss,OPAQUE,ANOTHER,03,08  #   1 ||< S-living:buffer
-*surf,E-living,VERT,-,-,-,PH-wll-Diss,OPAQUE,EXTERIOR,0,0  #   2 ||< external
-*surf,N-Living,VERT,-,-,-,PH-wll-Diss,OPAQUE,EXTERIOR,0,0  #   3 ||< external
-*surf,W-living,VERT,-,-,-,PH-wll-Diss,OPAQUE,EXTERIOR,0,0  #   4 ||< external
+*surf,E-living,VERT,-,-,-,PH-wll-Diss,OPAQUE,GROUND,01,00  #   2 ||< ground profile  1
+*surf,N-Living,VERT,-,-,-,PH-wll-Diss,OPAQUE,GROUND,01,00  #   3 ||< ground profile  1
+*surf,W-living,VERT,-,-,-,PH-wll-Diss,OPAQUE,GROUND,01,00  #   4 ||< ground profile  1
 *surf,living-bdrms,CEIL,-,-,-,susp_ceil,OPAQUE,ANOTHER,02,05  #   5 ||< bdrooms-livi:bdrooms
 *surf,living-floor,FLOR,-,-,-,PH-grnd_floo,OPAQUE,GROUND,01,00  #   6 ||< ground profile  1
 *surf,air_boundary,CEIL,-,-,-,fictitious,SC_fictit,ANOTHER,02,06  #   7 ||< air_boundary:bdrooms
