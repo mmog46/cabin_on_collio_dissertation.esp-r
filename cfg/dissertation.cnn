@@ -1,6 +1,6 @@
 *connections for dissertation
-*Date Sun Apr  7 18:21:38 2013
-     14   # number of connections
+*Date Sun Apr  7 18:36:04 2013
+     22   # number of connections
    1   1   0   0   0  #    1 S-living in living is External
    1   2   0   0   0  #    2 E-living in living is External
    1   3   0   0   0  #    3 N-Living in living is External
@@ -15,3 +15,11 @@
    2   4   0   0   0  #   12 bdrooms-roof in bdrooms is External
    2   5   3   1   5  #   13 bdrooms-livi in bdrooms >|< living-bdrms in living
    2   6   3   1   7  #   14 air_boundary in bdrooms >|< air_boundary in living
+   3   1  -1   0   0  #   15 S-buffer in buffer not yet defined
+   3   2  -1   0   0  #   16 E-buffer in buffer not yet defined
+   3   3  -1   0   0  #   17 buffer-livin in buffer not yet defined
+   3   4  -1   0   0  #   18 W-buffer in buffer not yet defined
+   3   5  -1   0   0  #   19 buffer-top in buffer not yet defined
+   3   6  -1   0   0  #   20 buffer-botto in buffer not yet defined
+   3   7   0   0   0  #   21 S-glz in buffer is External
+   3   8   0   0   0  #   22 S-living in buffer is External
