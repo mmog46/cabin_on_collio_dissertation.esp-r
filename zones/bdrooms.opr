@@ -10,7 +10,7 @@ Thermostatically controlled flow. Occ, Light + eqpt gains
 # middle: infil, vent, source, data
      1.500     0.000    0     0.000
 # high: infil, vent, source, data
-     2.000     0.000    0     0.000
+     3.500     0.000    0     0.000
      1   # number of flow periods in day type: weekdays    
 # start, stop, infil, ventil, source, data
    0, 24,    0.080    0.000    0    0.000
