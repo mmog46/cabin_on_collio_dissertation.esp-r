@@ -14,10 +14,11 @@ in?
 
 These and many other fascinating questions can be answered with ESP-r.
 This model is just a simple example. But don't take my word for it.
-Enter the magical world of dynamic modelling and find out for yourself.
+Enter the magical world of dynamic energy modelling and find out for yourself.
 
 # Requirements
 I am hooked. Give me a copy.
+
 Good you should be. Read this section, pull up a term, and you'll be good to go.
 
 ### Short version
