@@ -1,3 +1,4 @@
+# What is this?
 This repository contains the files needed for a thermal model of a small
 cabin in the Collio Goriziano.
 
