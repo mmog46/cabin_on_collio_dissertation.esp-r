@@ -6,7 +6,7 @@ This model represents the core of the experimental work carried out for a disser
 submitted in part fulfilment of the Degree of BEng(Hons) in Structural
 and Architectural Engineering at the University of Strathclyde.
 
-# What is this? No really, what is it?
+# No really, what is it?
 Imagine perfect knowledge of the performance of a building. How comfy is
 it? How much energy does it use?  Will I get enough sun in it? Will I
 get mould on the walls or will it be a nice healthy environment to dwell
@@ -22,7 +22,6 @@ I am hooked. Give me a copy.
 Good you should be. Read this section, pull up a term, and you'll be good to go.
 
 ### Short version
-If you're eager to go.
 ### Mac
 1. Install X11 (XQuartz)
 
